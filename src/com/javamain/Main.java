@@ -2,6 +2,7 @@ package com.javamain;
 
 import com.logicalcode.Fibonacci;
 import com.logicalcode.PerfectNumber;
+import com.logicalcode.PrimeNumber;
 
 public class Main {
 
@@ -10,8 +11,10 @@ public class Main {
 		System.out.println("-------------------------------------------");
 		
 //		Fibonacci.fibonacci();
+//		
+//		PerfectNumber.perfectNumber();
 		
-		PerfectNumber.perfectNumber();
+		PrimeNumber.primeNumber();
 	}
 
 }
