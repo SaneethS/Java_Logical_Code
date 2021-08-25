@@ -1,9 +1,7 @@
 package com.javamain;
 
-import com.logicalcode.Fibonacci;
-import com.logicalcode.PerfectNumber;
-import com.logicalcode.PrimeNumber;
-import com.logicalcode.ReverseNumber;
+import com.logicalcode.*;
+
 
 public class Main {
 
@@ -11,13 +9,17 @@ public class Main {
 		System.out.println("Welcome to Java Logical and JUnit");
 		System.out.println("-------------------------------------------");
 		
-		Fibonacci.fibonacci();
+//		Fibonacci.fibonacci();
+//		
+//		PerfectNumber.perfectNumber();
+//		
+//		PrimeNumber.primeNumber();
+//		
+//		ReverseNumber.reverseNumber();
 		
-		PerfectNumber.perfectNumber();
+		Coupon.coupon();
 		
-		PrimeNumber.primeNumber();
 		
-		ReverseNumber.reverseNumber();
 	}
 
 }
