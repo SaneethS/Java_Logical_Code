@@ -3,7 +3,7 @@ package com.logicalcode;
 import java.util.Scanner;
 
 public class StopWatch {
-	public static long start,stop;
+	public static double start,stop;
 	
 	public static void stopWatch() {
 		Scanner sc=new Scanner(System.in);
@@ -19,13 +19,13 @@ public class StopWatch {
 		{
 			stop = System.currentTimeMillis();
 			System.out.println("Stop watch stop");
-			System.out.println("The elapsed time between start and end is "+getElapsedTime()+"ms");
+			System.out.println("The elapsed time between start and end is "+getTime()+" seconds");
 		}
 		sc.close();
 	}
 	
-	public static long getElapsedTime()
+	public static double getTime()
 	{
-		return stop-start;
+		return (stop-start)/1000;
 	}
 }
