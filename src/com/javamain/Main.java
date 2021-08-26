@@ -9,17 +9,17 @@ public class Main {
 		System.out.println("Welcome to Java Logical and JUnit");
 		System.out.println("-------------------------------------------");
 		
-		Fibonacci.fibonacci();
-		
-		PerfectNumber.perfectNumber();
-		
-		PrimeNumber.primeNumber();
-		
-		ReverseNumber.reverseNumber();
+//		Fibonacci.fibonacci();
+//		
+//		PerfectNumber.perfectNumber();
+//		
+//		PrimeNumber.primeNumber();
+//		
+//		ReverseNumber.reverseNumber();
 		
 		Coupon.coupon();
 	
-		StopWatch.stopWatch();
+//		StopWatch.stopWatch();
 	}
 
 }
