@@ -2,7 +2,7 @@ package com.junitcode;
 
 import java.util.Scanner;
 
-public final class TemperatureConversion {
+public class TemperatureConversion {
 		
 		public static double temp;
 		public static double farTemp, celTemp;

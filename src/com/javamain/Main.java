@@ -2,6 +2,7 @@ package com.javamain;
 
 import java.util.Scanner;
 
+import com.junitcode.Sqrt;
 import com.junitcode.DayOfWeek;
 import com.junitcode.MonthlyPayment;
 import com.junitcode.TemperatureConversion;
@@ -40,11 +41,14 @@ public class Main {
 		System.out.println("Enter a number:");
 		int n = sc.nextInt();
 		
-		int res = Util.toBinary(n);
-*/		
-		Util.toBinary(106);
-
+		int res[] = Util.toBinary(n);
 		
+		for(int i=0 ;i<8;i++) {
+			System.out.print(res[i]);
+		}
+*/		
+
+		Sqrt.sqareRoot();
 		
 
 	}

@@ -30,7 +30,17 @@ public final class Util {
 		
 	}
 	
-	public static int toBinary(int n) {
+	public static double sqrt(int c) {
+		double t = c;
+		double epsilon = 0.000000000000001;
+
+		while(Math.abs(t-(c/t))>(epsilon*t)) {
+			t = ((c/t)+t)/2;
+		}
+		return t;
+	}
+	
+	public static int[] toBinary(int n) {
 		int binary[] = new int[40];    
 	    int index = 0;    
 	    while(n > 0){    
@@ -41,7 +51,6 @@ public final class Util {
 	       System.out.print(binary[i]);    
 	    }    
 	    System.out.println();
-	    
-	    return binary[n];
+	    return binary;
 	}
 }
