@@ -1,5 +1,7 @@
 package com.javamain;
 
+import java.util.Scanner;
+
 import com.junitcode.DayOfWeek;
 import com.junitcode.MonthlyPayment;
 import com.junitcode.TemperatureConversion;
@@ -34,27 +36,17 @@ public class Main {
 		
 //		MonthlyPayment.monthlyPayment(args);
 		
+/*		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int n = sc.nextInt();
 		
-//		Utility class Programs
+		int res = Util.toBinary(n);
+*/		
+		Util.toBinary(106);
+
 		
 		
-/*		int d = Integer.parseInt(args[0]);
-		int m = Integer.parseInt(args[1]);
-		int y = Integer.parseInt(args[2]);
-		
-		int d0 = Util.dayOfWeek(d, m, y);
-		
-		System.out.println("Day of Week = "+d0);
-*/
-		
-/*		double p = Double.parseDouble(args[0]);
-		int y = Integer.parseInt(args[1]);
-		double R = Double.parseDouble(args[2]);
-		
-		double payment = Util.monthlyPayment(p, y, R);
-		
-		System.out.println("Monthly Payment = "+payment);
-*/
+
 	}
 
 }
