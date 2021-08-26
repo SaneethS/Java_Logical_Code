@@ -1,6 +1,6 @@
 package com.junitcode;
 
-public final class DayOfWeek {
+public class DayOfWeek {
 
 	public static void dayOfWeek(String[] args) {
 		int d = Integer.parseInt(args[0]);
