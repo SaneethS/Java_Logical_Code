@@ -7,11 +7,11 @@ public class VendingMachine {
 	
 	public static void vendingMachine() {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Change in Rs to be returned by the vending machine");
+		System.out.println("Enter Change to be returned :");
 		int change = sc.nextInt();
 		returnChange(change);
 		System.out.println(map);
-		System.out.println(count);
+		System.out.println("The no. of types of note : "+count);
 		sc.close();
 	}
 	
