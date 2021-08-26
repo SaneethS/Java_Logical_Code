@@ -3,6 +3,7 @@ package com.javamain;
 import java.util.Scanner;
 
 import com.junitcode.Sqrt;
+import com.junitcode.Binary;
 import com.junitcode.DayOfWeek;
 import com.junitcode.MonthlyPayment;
 import com.junitcode.TemperatureConversion;
@@ -49,7 +50,7 @@ public class Main {
 */		
 
 //		Sqrt.sqareRoot();
-		
+		 Binary.binary();
 
 	}
 
