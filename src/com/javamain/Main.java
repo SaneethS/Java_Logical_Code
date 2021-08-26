@@ -1,6 +1,7 @@
 package com.javamain;
 
 import com.junitcode.DayOfWeek;
+import com.junitcode.MonthlyPayment;
 import com.junitcode.TemperatureConversion;
 import com.logicalcode.*;
 
@@ -25,7 +26,9 @@ public class Main {
 		
 //		DayOfWeek.dayOfWeek(args);
 		
-		TemperatureConversion.temperatureConversion();
+//		TemperatureConversion.temperatureConversion();
+		
+		MonthlyPayment.monthlyPayment(args);
 	}
 
 }
