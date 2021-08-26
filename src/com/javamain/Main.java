@@ -1,6 +1,7 @@
 package com.javamain;
 
 import com.junitcode.DayOfWeek;
+import com.junitcode.TemperatureConversion;
 import com.logicalcode.*;
 
 
@@ -22,7 +23,9 @@ public class Main {
 	
 //		StopWatch.stopWatch();
 		
-		DayOfWeek.dayOfWeek(args);
+//		DayOfWeek.dayOfWeek(args);
+		
+		TemperatureConversion.temperatureConversion();
 	}
 
 }
