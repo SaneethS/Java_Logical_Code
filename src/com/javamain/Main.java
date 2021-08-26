@@ -3,6 +3,7 @@ package com.javamain;
 import com.junitcode.DayOfWeek;
 import com.junitcode.MonthlyPayment;
 import com.junitcode.TemperatureConversion;
+import com.junitcode.VendingMachine;
 import com.logicalcode.*;
 
 
@@ -24,11 +25,13 @@ public class Main {
 	
 //		StopWatch.stopWatch();
 		
+		VendingMachine.vendingMachine();
+		
 //		DayOfWeek.dayOfWeek(args);
 		
 //		TemperatureConversion.temperatureConversion();
 		
-		MonthlyPayment.monthlyPayment(args);
+//		MonthlyPayment.monthlyPayment(args);
 	}
 
 }
