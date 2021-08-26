@@ -26,7 +26,7 @@ public class Main {
 	
 //		StopWatch.stopWatch();
 		
-		VendingMachine.vendingMachine();
+//		VendingMachine.vendingMachine();
 		
 //		DayOfWeek.dayOfWeek(args);
 		

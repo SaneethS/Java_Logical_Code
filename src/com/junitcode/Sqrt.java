@@ -12,9 +12,6 @@ public class Sqrt {
 		
 		t = ((c/t) + t)/2;
 		
-		
-		
-		
 	}
 	
 }
