@@ -1,5 +1,6 @@
 package com.javamain;
 
+import com.junitcode.DayOfWeek;
 import com.logicalcode.*;
 
 
@@ -17,9 +18,11 @@ public class Main {
 //		
 //		ReverseNumber.reverseNumber();
 		
-		Coupon.coupon();
+//		Coupon.coupon();
 	
 //		StopWatch.stopWatch();
+		
+		DayOfWeek.dayOfWeek(args);
 	}
 
 }
