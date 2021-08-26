@@ -12,6 +12,7 @@ public class VendingMachine {
 		returnChange(change);
 		System.out.println(map);
 		System.out.println(count);
+		sc.close();
 	}
 	
 	public static void returnChange(int change) {
