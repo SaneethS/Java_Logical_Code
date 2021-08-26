@@ -48,7 +48,7 @@ public class Main {
 		}
 */		
 
-		Sqrt.sqareRoot();
+//		Sqrt.sqareRoot();
 		
 
 	}
